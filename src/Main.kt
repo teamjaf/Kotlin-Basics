@@ -23,5 +23,20 @@ class Main {
             !is String -> println("$x is not an String")
         }
 
+        //newer for loop in kotlin
+
+        var i = 0
+        for (i in 0..100){
+            println("O to 100 using ..")
+        }
+
+        for (i in 1000 downTo 101 step 5 ){
+            println("1000 to 101 by stepping 5")
+        }
+
+        for (i in 2000 until  1001){
+            println("2000 to 1001 using until")
+        }
+
     }
 }
