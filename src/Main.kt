@@ -42,5 +42,24 @@ class Main {
             return (a+b)/2
         }
 
+
+      //  var nam : String = "Jafrin"
+        // nam = null -> Compilation Error
+
+        var nullableNam : String = "Jaf"
+      //  nullableNam = null
+
+        // ?: Elvis operator
+        val nam = nullableNam ?: "Guest"
+        var len = nullableNam ?.length
+     //   nullableNam?.let { print(it.length) }
+
+        // Elvis chain
+
+        // val wifesAge: String? = user?.wife?.age ?: 0
+
+
+
+
     }
 }
