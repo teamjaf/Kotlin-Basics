@@ -38,5 +38,9 @@ class Main {
             println("2000 to 1001 using until")
         }
 
+        fun average(a: Double, b: Double ): Double{
+            return (a+b)/2
+        }
+
     }
 }
